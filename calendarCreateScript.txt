@@ -1,0 +1,6 @@
+Calendar = 
+var mycalendar = CALENDARAUTO() 
+return
+ADDCOLUMNS(mycalendar, "Year", Year([Date]), 
+"MonthSort", Month([Date]), "Month Name", 
+FORMAT([Date], "MMMM"))
