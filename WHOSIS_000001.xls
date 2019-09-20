@@ -1,0 +1,3535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:o="urn:schemas-microsoft-com:office"
+          xmlns:x="urn:schemas-microsoft-com:excel"
+          xmlns:ss="urn:schemas-microsoft-com:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40">
+   <DocumentProperties/>
+   <Styles>
+      <Style ss:ID="Hyperlink" ss:Name="Hyperlink">
+         <Font ss:Color="#0000FF" ss:Underline="Single"/>
+      </Style>
+      <Style ss:ID="header">
+         <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+         <NumberFormat ss:Format="@"/>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="notice">
+      <Table>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Notice</Data>
+            </Cell>
+         </Row>
+         <Row/>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Date generated</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell>
+               <Data ss:Type="String">2019-09-18 21:28:12.0</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Source URL</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell ss:StyleID="Hyperlink">
+               <Data ss:Type="String">https://apps.who.int/gho/athena/api/GHO/WHOSIS_000001?filter=COUNTRY:BWA&amp;format=xml&amp;profile=excel</Data>
+            </Cell>
+         </Row>
+         <Row/>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Content summary</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell ss:StyleID="Hyperlink" ss:HRef="#'data-coded'!A1">
+               <Data ss:Type="String">Data (coded)</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell ss:StyleID="Hyperlink" ss:HRef="#'data-text'!A1">
+               <Data ss:Type="String">Data (text)</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell ss:StyleID="Hyperlink" ss:HRef="#'Indicator'!A1">
+               <Data ss:Type="String">Indicator</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell ss:StyleID="Hyperlink" ss:HRef="#'PUBLISH STATES'!A1">
+               <Data ss:Type="String">PUBLISH STATES</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell ss:StyleID="Hyperlink" ss:HRef="#'Year'!A1">
+               <Data ss:Type="String">Year</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell ss:StyleID="Hyperlink" ss:HRef="#'WHO region'!A1">
+               <Data ss:Type="String">WHO region</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell ss:StyleID="Hyperlink" ss:HRef="#'Country'!A1">
+               <Data ss:Type="String">Country</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell ss:StyleID="Hyperlink" ss:HRef="#'Sex'!A1">
+               <Data ss:Type="String">Sex</Data>
+            </Cell>
+         </Row>
+         <Row/>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Measures</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell>
+               <Data ss:Type="String">Life expectancy at birth (years)</Data>
+            </Cell>
+            <Cell ss:HRef="http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=65">
+               <Data ss:Type="String">http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=65</Data>
+            </Cell>
+         </Row>
+         <Row/>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Copyright</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell ss:StyleID="Hyperlink" ss:HRef="http://www.who.int/about/copyright/en">
+               <Data ss:Type="String">(c) World Health Organization</Data>
+            </Cell>
+         </Row>
+         <Row/>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Disclaimer</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell/>
+            <Cell>
+               <Data ss:Type="String">The information in this database is provided as a service to our users.
+Any use of information in the web site should be accompanied by an
+acknowledgment of WHO as the source. The responsibility for the
+interpretation and use of the material lies with the user. In no event
+shall the World Health Organization be liable for any damages arising
+from the use of the information linked to this section.</Data>
+            </Cell>
+         </Row>
+      </Table>
+   </Worksheet>
+   <Worksheet ss:Name="data-coded">
+      <Table>
+         <Row ss:StyleID="header">
+            <Cell>
+               <Data ss:Type="String">PUBLISHSTATE (code)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">YEAR (code)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">REGION (code)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">COUNTRY (code)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">SEX (code)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHOSIS_000001 (string)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHOSIS_000001 (numeric)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHOSIS_000001 (comment)</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2000</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">47.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">47.49080</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2000</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">50.7</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">50.66724</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2000</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">49.1</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">49.11067</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2001</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">46.7</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">46.72708</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2001</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">49.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">49.48780</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2001</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">48.1</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">48.14422</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2002</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">46.3</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">46.28711</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2002</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">48.7</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">48.73308</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2002</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">47.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">47.55310</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2003</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">46.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">46.56488</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2003</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">48.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">48.88416</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2003</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">47.8</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">47.77649</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2004</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">47.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">47.92973</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2004</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">50.4</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">50.36774</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2004</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">49.2</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">49.21376</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2005</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">50.7</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">50.70795</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2005</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">53.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">53.55337</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2005</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">52.2</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">52.21122</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2006</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">53.3</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">53.29557</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2006</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">56.4</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">56.39661</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2006</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">54.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">54.93403</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2007</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">55.2</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">55.18707</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2007</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">58.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">58.45175</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2007</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">56.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">56.91059</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2008</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">56.4</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">56.35424</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2008</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">59.7</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">59.65527</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2008</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">58.1</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">58.09790</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2009</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">57.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">57.86007</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2009</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">61.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">61.89903</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2009</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">60.0</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">59.96028</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">58.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">58.59800</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">63.8</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">63.77548</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">61.2</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">61.23447</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">59.3</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">59.29792</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">64.4</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">64.43410</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">61.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">61.91600</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">60.1</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">60.14571</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">65.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">65.54044</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">62.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">62.88486</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">60.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">60.53017</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">66.7</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">66.74933</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">63.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">63.64810</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2015</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">62.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">62.56207</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2015</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">67.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">67.92153</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2015</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">65.3</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">65.29367</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">61.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">61.52710</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">67.4</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">67.35998</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">64.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">64.47293</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2016</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">63.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">63.55502</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2016</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">68.4</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">68.41085</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2016</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">66.1</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">66.05297</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+         <Selected/>
+         <FreezePanes/>
+         <FrozenNoSplit/>
+         <SplitHorizontal>1</SplitHorizontal>
+         <TopRowBottomPane>1</TopRowBottomPane>
+         <ActivePane>2</ActivePane>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+            </Pane>
+            <Pane>
+               <Number>2</Number>
+               <ActiveRow>0</ActiveRow>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+      <AutoFilter xmlns="urn:schemas-microsoft-com:office:excel" x:Range="R1C1:R52C8"/>
+   </Worksheet>
+   <Worksheet ss:Name="data-text">
+      <Table>
+         <Row ss:StyleID="header">
+            <Cell>
+               <Data ss:Type="String">PUBLISH STATES (string)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Year (string)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO region (string)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Country (string)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Sex (string)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Life expectancy at birth (years) (string)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Life expectancy at birth (years) (numeric)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Life expectancy at birth (years) (comment)</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2000</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">47.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">47.49080</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2000</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">50.7</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">50.66724</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2000</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">49.1</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">49.11067</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2001</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">46.7</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">46.72708</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2001</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">49.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">49.48780</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2001</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">48.1</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">48.14422</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2002</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">46.3</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">46.28711</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2002</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">48.7</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">48.73308</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2002</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">47.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">47.55310</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2003</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">46.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">46.56488</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2003</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">48.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">48.88416</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2003</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">47.8</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">47.77649</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2004</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">47.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">47.92973</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2004</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">50.4</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">50.36774</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2004</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">49.2</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">49.21376</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2005</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">50.7</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">50.70795</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2005</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">53.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">53.55337</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2005</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">52.2</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">52.21122</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2006</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">53.3</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">53.29557</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2006</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">56.4</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">56.39661</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2006</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">54.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">54.93403</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2007</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">55.2</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">55.18707</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2007</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">58.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">58.45175</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2007</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">56.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">56.91059</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2008</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">56.4</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">56.35424</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2008</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">59.7</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">59.65527</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2008</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">58.1</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">58.09790</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2009</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">57.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">57.86007</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2009</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">61.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">61.89903</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2009</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">60.0</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">59.96028</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">58.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">58.59800</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">63.8</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">63.77548</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">61.2</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">61.23447</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">59.3</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">59.29792</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">64.4</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">64.43410</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">61.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">61.91600</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">60.1</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">60.14571</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">65.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">65.54044</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">62.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">62.88486</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">60.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">60.53017</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">66.7</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">66.74933</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">63.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">63.64810</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2015</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">62.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">62.56207</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2015</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">67.9</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">67.92153</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2015</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">65.3</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">65.29367</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">61.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">61.52710</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">67.4</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">67.35998</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">64.5</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">64.47293</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2016</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">63.6</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">63.55502</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2016</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">68.4</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">68.41085</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2016</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">66.1</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="Number">66.05297</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WHO life table method: High HIV countries</Data>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+         <Selected/>
+         <FreezePanes/>
+         <FrozenNoSplit/>
+         <SplitHorizontal>1</SplitHorizontal>
+         <TopRowBottomPane>1</TopRowBottomPane>
+         <ActivePane>2</ActivePane>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+            </Pane>
+            <Pane>
+               <Number>2</Number>
+               <ActiveRow>0</ActiveRow>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+      <AutoFilter xmlns="urn:schemas-microsoft-com:office:excel" x:Range="R1C1:R52C8"/>
+   </Worksheet>
+   <Worksheet ss:Name="Indicator">
+      <Table>
+         <Row>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">Code</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">DisplayValue</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">URL</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">Category</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">Renderer ID</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">Definition (XML)</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">Français</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">Español</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">WHOSIS_000001</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Life expectancy at birth (years)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">http://apps.who.int/gho/indicatorregistry/App_Main/view_indicator.aspx?iid=65</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Sustainable development goals</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">RENDER_2</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">http://apps.who.int/gho/indicatorregistryservice/publicapiservice.asmx/IndicatorGetAsXml?profileCode=WHO&amp;applicationCode=System&amp;languageAlpha2=en&amp;indicatorId=65</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Esperance de vie a la naissance (ans)</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Esperanza de vida al nacer </Data>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+         <Selected/>
+         <FreezePanes/>
+         <FrozenNoSplit/>
+         <SplitHorizontal>1</SplitHorizontal>
+         <TopRowBottomPane>1</TopRowBottomPane>
+         <ActivePane>2</ActivePane>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+            </Pane>
+            <Pane>
+               <Number>2</Number>
+               <ActiveRow>0</ActiveRow>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+      <AutoFilter xmlns="urn:schemas-microsoft-com:office:excel" x:Range="R1C1:R2C8"/>
+   </Worksheet>
+   <Worksheet ss:Name="PUBLISH STATES">
+      <Table>
+         <Row>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">Code</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">DisplayValue</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">URL</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">PUBLISHED</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Published</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+         <Selected/>
+         <FreezePanes/>
+         <FrozenNoSplit/>
+         <SplitHorizontal>1</SplitHorizontal>
+         <TopRowBottomPane>1</TopRowBottomPane>
+         <ActivePane>2</ActivePane>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+            </Pane>
+            <Pane>
+               <Number>2</Number>
+               <ActiveRow>0</ActiveRow>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+      <AutoFilter xmlns="urn:schemas-microsoft-com:office:excel" x:Range="R1C1:R2C3"/>
+   </Worksheet>
+   <Worksheet ss:Name="Year">
+      <Table>
+         <Row>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">Code</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">DisplayValue</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">URL</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2000</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2000</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2001</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2001</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2002</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2002</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2003</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2003</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2004</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2004</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2005</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2005</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2006</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2006</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2007</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2007</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2008</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2008</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2009</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2009</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2010</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2011</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2012</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2013</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2015</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2015</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2014</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">2016</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2016</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+         <Selected/>
+         <FreezePanes/>
+         <FrozenNoSplit/>
+         <SplitHorizontal>1</SplitHorizontal>
+         <TopRowBottomPane>1</TopRowBottomPane>
+         <ActivePane>2</ActivePane>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+            </Pane>
+            <Pane>
+               <Number>2</Number>
+               <ActiveRow>0</ActiveRow>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+      <AutoFilter xmlns="urn:schemas-microsoft-com:office:excel" x:Range="R1C1:R18C3"/>
+   </Worksheet>
+   <Worksheet ss:Name="WHO region">
+      <Table>
+         <Row>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">Code</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">DisplayValue</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">URL</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+         <Selected/>
+         <FreezePanes/>
+         <FrozenNoSplit/>
+         <SplitHorizontal>1</SplitHorizontal>
+         <TopRowBottomPane>1</TopRowBottomPane>
+         <ActivePane>2</ActivePane>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+            </Pane>
+            <Pane>
+               <Number>2</Number>
+               <ActiveRow>0</ActiveRow>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+      <AutoFilter xmlns="urn:schemas-microsoft-com:office:excel" x:Range="R1C1:R2C3"/>
+   </Worksheet>
+   <Worksheet ss:Name="Country">
+      <Table>
+         <Row>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">Code</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">DisplayValue</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">URL</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">DS</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">FIPS</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">IOC</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">ISO2</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">ISO</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">ITU</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">MARC</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">WHO</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">WMO</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">GEOMETRY</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">MORT</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">LAND_AREA_KMSQ_2012</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">LANGUAGES_EN_2012</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">WHO_REGION</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">WHO_REGION_CODE</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">World Bank income group</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">World Bank income group code</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">SHORTNAMEES</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">SHORTNAMEFR</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">WHOLEGALSTATUS</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">World Bank income group GNI reference year</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">World Bank income group release date</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BW</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BC</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BOT</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BW</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BOT</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">bs</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BOT</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BC</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">BWA</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">1030</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">566,730</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Setswana, Kalanga, English </Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Africa</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">AFR</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Upper middle income</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">WB_UMI</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Botswana</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">M</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2017</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">2018</Data>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+         <Selected/>
+         <FreezePanes/>
+         <FrozenNoSplit/>
+         <SplitHorizontal>1</SplitHorizontal>
+         <TopRowBottomPane>1</TopRowBottomPane>
+         <ActivePane>2</ActivePane>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+            </Pane>
+            <Pane>
+               <Number>2</Number>
+               <ActiveRow>0</ActiveRow>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+      <AutoFilter xmlns="urn:schemas-microsoft-com:office:excel" x:Range="R1C1:R2C25"/>
+   </Worksheet>
+   <Worksheet ss:Name="Sex">
+      <Table>
+         <Row>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">Code</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">DisplayValue</Data>
+            </Cell>
+            <Cell ss:StyleID="header">
+               <Data ss:Type="String">URL</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">MLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Male</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">FMLE</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Female</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell>
+               <Data ss:Type="String">BTSX</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String">Both sexes</Data>
+            </Cell>
+            <Cell>
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+      </Table>
+      <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+         <Selected/>
+         <FreezePanes/>
+         <FrozenNoSplit/>
+         <SplitHorizontal>1</SplitHorizontal>
+         <TopRowBottomPane>1</TopRowBottomPane>
+         <ActivePane>2</ActivePane>
+         <Panes>
+            <Pane>
+               <Number>3</Number>
+            </Pane>
+            <Pane>
+               <Number>2</Number>
+               <ActiveRow>0</ActiveRow>
+            </Pane>
+         </Panes>
+         <ProtectObjects>False</ProtectObjects>
+         <ProtectScenarios>False</ProtectScenarios>
+      </WorksheetOptions>
+      <AutoFilter xmlns="urn:schemas-microsoft-com:office:excel" x:Range="R1C1:R4C3"/>
+   </Worksheet>
+</Workbook>
